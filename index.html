@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+
+ <link href="css/style.css" rel="stylesheet">
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 mx-auto">
+<form>
+		<div class="container">
+      		<div class="row">
+        		<div class="col-lg-8 mx-auto">
+		<h2>Bug Report Form</h2>
+				</div>
+			</div>
+		</div>
+  <div class="form-group row">
+    <label for="inputPrjID" class="col-sm-2 col-form-label">Project ID:</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" id="inputPrjID" placeholder="ProjectID">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPrjName" class="col-sm-2 col-form-label">Project Name:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputPrjName" placeholder="Project Name">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputOrgName" class="col-sm-2 col-form-label">Org. Name:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputOrgName" placeholder="Organization Name">
+    </div>
+  </div>
+   <div class="form-group row">
+    <label for="inputTier" class="col-sm-2 col-form-label">Org. Tier:</label>
+    <div class="col-sm-10">
+    	<select name="tier Level">
+		<option value="tier one">Tier 1</option>
+		<option value="tier two">Tier 2</option>
+		<option value="tier three">Tier 3</option>
+		<option value="tier four">Tier 4</option>
+	</select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+    	<div class="form-group">
+ 			 <label for="textAreaIssue">Description:</label>
+  			<textarea placeholder="Describe the issue.." class="form-control rounded-0" id="textAreaIssue" rows="5"></textarea>
+		</div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputLoom" class="col-sm-2 col-form-label">Loom URL:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputLoom" placeholder="URL">
+    </div>
+  </div>
+  <div class="form-group row">
+  	<label for="inputLoom" class="col-sm-2 col-form-label">Are you proud to be a Stratford Eagle?</label>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Yes
+
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Submit Task</button>
+
+    </div>
+  </div>
+</form>
+		</div>
+	</div>
+	  <div class="form-group row">
+    <div class="col-sm-10">
+		<img id="eagle" src="img/sford-eagle.png">
+	</div>
+</div>
+</div>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
